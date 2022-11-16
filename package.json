@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Example site for advanced CSS and responsive techniques",
+  "source": "./src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rimraf dist && parcel",
+    "build": "rimraf dist && parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLCampbell/natours.git"
+  },
+  "author": "GQ Web Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MLCampbell/natours/issues"
+  },
+  "homepage": "https://github.com/MLCampbell/natours#readme",
+  "dependencies": {
+    "parcel": "^2.8.0",
+    "rimraf": "^3.0.2"
+  }
+}
