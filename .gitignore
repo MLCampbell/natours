@@ -1,5 +1,8 @@
 node_modules
-src/
+src/css
+src/img
+src/index.html
+src/index.js
 .parcel-cache*
 package-lock.json
 dist/
